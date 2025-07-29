@@ -1,0 +1,27 @@
+# Ignora arquivos de sistema/IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Ignora dependências do Node.js
+node_modules/
+npm-debug.log
+
+# Ignora arquivos de build
+dist/
+build/
+*.exe
+
+# Ignora arquivos de ambiente (sensíveis!)
+.env
+.env.local
+
+# Ignora arquivos gerados pelo sistema
+*.log
+*.tmp
+
+# Virtualenv
+venv/
+__pycache__/
+*.pyc
